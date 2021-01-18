@@ -1,0 +1,19 @@
+body {
+	background-color: black;
+	color: white;
+
+	font-size: 62.5%;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100vh;
+	width: 100vw;
+}
+
+/*#keycode {
+	align-self: center;
+}*/
