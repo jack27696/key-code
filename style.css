@@ -1,19 +1,54 @@
 body {
-	background-color: black;
+	background-color: #3a3c40;
 	color: white;
 
 	font-size: 62.5%;
+
+	font-family: 'Source Code Pro', monospace;
 }
 
 main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 
 	height: 100vh;
 	width: 100vw;
 }
 
-/*#keycode {
-	align-self: center;
-}*/
+#keycode {
+	height: 200px;
+	width: 200px;
+}
+
+#keycode h1{
+	font-size: 5rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+
+#more-info {
+	display: flex;
+	flex-direction: row;
+}
+
+#more-info .info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 20px;
+	margin-right: 20px;
+
+	width: 200px;
+	min-width: 100px;
+
+	border: 1px solid white;
+}
+
+#more-info .info header {
+	text-align: center;
+	width: 100%;
+	text-decoration: underline;
+}
